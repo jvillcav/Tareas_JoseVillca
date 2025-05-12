@@ -27,15 +27,15 @@ const [Bolivia,Peru] = ciudades;
 console.log(Peru)
 const [ciudad1,ciudad2,ciudad3]= Bolivia;
 const [dep1,dep2,dep3]= Peru;
- console.log(dep2,ciudad1);
+console.log(dep2,ciudad1);
 
- let numPares = [2,4,6,8]
- let copiaPares = numPares;
+let numPares = [2,4,6,8]
+let copiaPares = numPares;
 
- console.log(copiaPares);
- copiaPares.push(12);
- console.log(copiaPares);
- console.log(pares)
+console.log(copiaPares);
+copiaPares.push(12);
+console.log(copiaPares);
+console.log(pares)
 
   // DESESTRUCTURACION DURANTE LA ITERACION
   let paises = [["Bolivia","Oruro"],["Chile","Santiago"],["Peru","Lima"]];
